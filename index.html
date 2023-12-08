@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        
+        }
+
+       
+
+        h1,h3 {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px #efe9e9;
+            
+        }
+        h1{
+            font-size: 70px;
+            margin-left: 50px;
+            text-align: justify;
+            white-space: nowrap ;
+        }
+        h3{
+            font-size: 35px;
+            margin-left: 100px;
+            text-align: justify;
+        }
+        .button-overlay {
+  position: relative;
+  display: flex;
+  width: 100%;
+
+}
+.button-overlay img {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-left: 120px;
+  margin-right: 80px;
+  margin-top: 0px;
+}
+.button-overlay button {
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color:white  ;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: white;
+}
+.button-overlay button:hover {
+  background-color: #4CAF50;
+}
+.button-overlay .content {
+    position: absolute;
+  
+  
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 10px;
+  color: #f1f1f1;
+  width: 100px; 
+  padding: 20px;
+}
+        .footer {
+            margin-top: 10px;
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        }
+        .created-by {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+   
+    <div class="button-overlay">
+        
+        <img src="cover.jpeg" alt="National Park Image">
+        <div class="content">
+            <h1>Wildlife Wonderland</h1>
+            <h3>Exploring Indian National Parks</h3>
+          </div>
+        <button onclick="window.location.href = 'next 1.html';">Click to Explore </button>
+      </div>
+    <div class="footer">
+        <div class="created-by">
+            Created by:
+            <br>
+            1. Prathmesh Patil
+            <br>
+            2. Atharv Sawant
+            <br>
+            3. Atharv Patil
+            <br>
+            4. Prem Chougule
+            <br>
+            5. Pranay Katekhaye
+        </div>
+        <p>&copy; 2023 All rights reserved</p>
+    </div>
+</body>
+</html>
